@@ -6,7 +6,15 @@ This document explains how the `AlgoAStar.py` script works.
 
 ## 1️⃣ Data Structures
 - **`Router` class** — Represents a node in the network. Each router has a position `(x, y)`, a name (A, B, C...), and a list of neighbors.
-- **Link cost** — The cost isn't simple physical distance; it's inversely proportional to bandwidth (`1000 / throughput`). The higher the throughput, the lower the cost — this biases the algorithm toward choosing the fastest links.
+- **Link cost** — The cost isn't simple physical distance; it's inversely proportional to bandwidth (`1000 / throughput`). The higher the throughput (random value), the lower the cost — this biases the algorithm toward choosing the fastest links.
+
+## 📂 File structure
+| File | Role |
+|---|---|
+| `AlgoAStar.py` | Tkinter GUI application that generates a random network of routers and runs the A* algorithm to find the lowest-cost path. |
+| `Explication_AlgoAStar.md` | Explanation/documentation of the algorithm and simulation behavior (heuristic, data structures, and visualization). |
+| `pres.html` *(if present in your project folder)* | Optional presentation page (not required for running the program). |
+| `class1.png` *(if present in your project folder)* | Optional image asset (not required for running the program). |
 
 ---
 
@@ -50,6 +58,30 @@ While the queue is not empty Do :
 - 🔵 **Blue** — Starting point (Node A)
 - 🟢 **Green** — Destination (last node)
 - 🔴 **Red** — Optimal path found by A*
+
+## ▶️ How to run the program
+1. Make sure you have **Python 3** installed.
+2. Install nothing else: the script uses **standard libraries** only (`tkinter`, `heapq`, `math`, `random`).
+3. Run the script:
+   - In a terminal/VSCode terminal, execute:
+     ```bash
+     python AlgoAStar.py
+     ```
+   - If your system uses `python3`, try:
+     ```bash
+     python3 AlgoAStar.py
+     ```
+4. The window opens:
+   - Enter the number of routers (allowed range: **6 to 25**).
+   - Click **“Générer le réseau”**.
+   - Click **“SIMULER A*”** to compute the path.
+
+### Recommended environment / frameworks
+- **Python + Tkinter** (already used in `AlgoAStar.py`) for the GUI.
+- A code editor like **VSCode** with the **Python** extension.
+
+### Notes
+- On some setups, `tkinter` might not be installed by default (especially on minimal Python installs). If you get an error related to `tkinter`, install the Tk/Tkinter package for your Python distribution.
 
 ---
 
