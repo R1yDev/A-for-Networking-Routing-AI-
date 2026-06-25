@@ -12,9 +12,7 @@ This document explains how the `AlgoAStar.py` script works.
 | File | Role |
 |---|---|
 | `AlgoAStar.py` | Tkinter GUI application that generates a random network of routers and runs the A* algorithm to find the lowest-cost path. |
-| `Explication_AlgoAStar.md` | Explanation/documentation of the algorithm and simulation behavior (heuristic, data structures, and visualization). |
-| `pres.html` *(if present in your project folder)* | Optional presentation page (not required for running the program). |
-| `class1.png` *(if present in your project folder)* | Optional image asset (not required for running the program). |
+| `README.md` | Explanation/documentation of the algorithm and simulation behavior (heuristic, data structures, and visualization). |
 
 ---
 
