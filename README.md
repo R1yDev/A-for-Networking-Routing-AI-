@@ -86,7 +86,7 @@ While the queue is not empty Do :
 ## 4️⃣ class diagram 
 
 ![image alt](https://github.com/R1yDev/A-for-Networking-Routing-AI-/blob/725bbf1b062a64bc79767491b49f65f5430e5e2c/class1.png)
-[View the Project Report]((https://github.com/R1yDev/A-for-Networking-Routing-AI-/blob/415ac60a57de3ac8d284a878e09416c2204fec09/presentation.pdf)
+[View the Project Report](presentation.pdf)
 ---
 
 ## 5️⃣ Why This Approach Works
