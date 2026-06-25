@@ -1,4 +1,4 @@
-# 🧭 A* Algorithm Explained (Network and Routing Simulation) [Full Guid]
+# 🧭 A* Algorithm Explained (Network and Routing Simulation) + (GUI) [Full Guid]
 
 This document explains how the `AlgoAStar.py` script works.
 
