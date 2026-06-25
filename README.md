@@ -85,3 +85,5 @@ While the queue is not empty Do :
 
 ## 4️⃣ Why This Approach Works
 A* is ideal for routing because it combines the **correctness of Dijkstra's algorithm** (real link cost) with the **efficiency of a heuristic-guided search** (position-based estimate) — finding the fastest path while limiting the number of nodes explored.
+
+![image alt](https://github.com/R1yDev/A-for-Networking-Routing-AI-/blob/725bbf1b062a64bc79767491b49f65f5430e5e2c/class1.png)
