@@ -82,8 +82,11 @@ While the queue is not empty Do :
 - On some setups, `tkinter` might not be installed by default (especially on minimal Python installs). If you get an error related to `tkinter`, install the Tk/Tkinter package for your Python distribution.
 
 ---
-
-## 4️⃣ Why This Approach Works
-A* is ideal for routing because it combines the **correctness of Dijkstra's algorithm** (real link cost) with the **efficiency of a heuristic-guided search** (position-based estimate) — finding the fastest path while limiting the number of nodes explored.
+## 4️⃣ class diagram 
 
 ![image alt](https://github.com/R1yDev/A-for-Networking-Routing-AI-/blob/725bbf1b062a64bc79767491b49f65f5430e5e2c/class1.png)
+
+---
+
+## 5️⃣ Why This Approach Works
+A* is ideal for routing because it combines the **correctness of Dijkstra's algorithm** (real link cost) with the **efficiency of a heuristic-guided search** (position-based estimate) — finding the fastest path while limiting the number of nodes explored.
